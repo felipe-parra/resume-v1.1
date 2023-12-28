@@ -135,20 +135,7 @@ export const RESUME_DATA = {
       NextJS, React, Redux, React-Intl, and Sass on the frontend.
       Worked on development components such as user sign-up, order tracking, and product details to deliver an
       international e-commerce website that provides and tracks orders for customers.`,
-    },
-    {
-      company: "Magno Technology / Colombo Development",
-      link: null,
-      badges: ["On Site"],
-      title: "Point of Sale Manager & Database Administrator",
-      logo: null,
-      start: "208",
-      end: "2020",
-      description: `Worked with technologies like MySQL and SQLite, developing scripts for usage and sales statistics using
-      Python, Java, and JavaScript; Administration, Supervision, and Technical Support of Points of Sale.
-      Employed technologies such as SQL Server, Python, and Java for Installation, Update, Backups, and Database
-      Support.`,
-    },
+    }
   ],
   skills: [
     "JavaScript",
