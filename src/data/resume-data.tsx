@@ -1,278 +1,221 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Felipe Parra",
+  initials: "FP",
+  location: "Acapulco, Gro. Mexico, CST",
+  locationLink: "https://www.google.com/maps/place/Acapulco+de+Ju%C3%A1rez,+Gro./@16.823294,-100.180155,10z",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Full Stack Developer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    `I am a results-driven Software Developer with over 5 years of experience in developing, implementing, and
+    maintaining web applications across various industries, specialized on JavaScript like a Full Stack Developer. I am
+    proficient in modern web technologies such as React, Vue, Node, Express, Firebase, and MongoDB. My proven track
+    record of delivering high-quality applications from conception to launch, streamlining functionality, and optimizing
+    user experience positions me as an expert in the field.`,
+  avatarUrl: "https://avatars.githubusercontent.com/u/1909786?v=4",
+  personalWebsiteUrl: "https://github.com/felipe-parra",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "felipeparra.dev@gmail.com",
+    tel: "+52",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/felipe-parra",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/felipe-parra-ramirez/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/_felipeparra",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Platzi Inc",
+      degree: "Database Career",
+      start: "2020",
+      end: "2020",
+    },
+    {
+      school: "Platzi Inc",
+      degree: "JavaScript School",
+      start: "2020",
+      end: "2020",
+    },
+    {
+      school: "Ironhack Mexico",
+      degree: "Web Dev Mern Stack",
+      start: "2019",
+      end: "2019",
+    },
+    {
+      school: "Hipocrates University",
+      degree: "Bachelor's Degree in Computerstystems engineer",
+      start: "2009",
+      end: "2014",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Group Wayssen",
+      link: "https://www.wayssen.com/",
       badges: ["Remote"],
+      title: "Full Stack Developer",
+      logo: "https://www.wayssen.com/assets/img/logo.png",
+      start: "2023",
+      end: "2023",
+      description:
+        `Add support and use of Sumsub KYC (Know Your Client), on existing platform with NestJS.
+        Create a proof of concept to understand the operation and requirements for implementation.
+        Lead the team to be responsible for giving the general vision of the operation of the KYC.`,
+    },
+    {
+      company: "Hello Doctor Inc",
+      link: "https://www.linkedin.com/company/hellodoctormx/",
+      badges: ["Hybrid"],
       title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      logo: "https://media.licdn.com/dms/image/C4E0BAQHRrWnhCHk8CA/company-logo_200_200/0/1645646549632/hellodoctormx_logo?e=1711584000&v=beta&t=iCxeGzldVvIzF8ILOTfi3Ma7JsFXxMqR2J-2_aN8il0",
+      start: "2022",
+      end: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        `Led the development of a web app using React JS, Firebase, and other technologies, while ensuring
+        code quality through linters and Husky.
+        Enhanced user experience by updating the landing page for app downloads and creating multilingual support
+        for both the company's website and a tailored health concierge solution in the hospitality industry.
+        Contributed to the development of new features for a React Native mobile app and integrated internal APIs for
+        improved interoperability.`,
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Pack & Pack Logistics",
+      link: "https://www.linkedin.com/company/packandpack/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Full Stack Developer",
+      logo: "https://media.licdn.com/dms/image/C4E0BAQGPpD5jE25RIA/company-logo_200_200/0/1630653869557/packandpack_logo?e=1711584000&v=beta&t=3A6ynGwwc-pOt82pwDh4mxQOnjYKGmeI0lcOUoDuQ08",
+      start: "2021",
+      end: "2022",
+      description:
+        `Worked on maintenance and development of new features for frontend and backend platforms, using
+        technologies like Node, Express, Axios, Cors, Passport, Nodemailer, VueJS, Nuxt, Vuex, and Angular.
+        Collaborated on a joint project with Netflix within the company.
+        Contributed to the development of a new platform from scratch, implementing authentication strategies,
+        business logic middleware, code style linters, and unit tests for the backend, as well as developing the frontend
+        from the ground up.`,
+    },
+    {
+      company: "Magno Technology / Colombo Development",
+      link: "https://www.linkedin.com/company/magnotechnology/",
+      badges: ["Remote"],
+      title: "Full Stack Developer",
+      logo: "https://media.licdn.com/dms/image/C510BAQErCTakNqeUGw/company-logo_200_200/0/1631307973254?e=1711584000&v=beta&t=FK0L12vwquinr7iFQ55c4V8JE2LKcOpI_YfG3E5h0AE",
+      start: "2021",
       end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      description: `Developed a web application using Node, Express, Axios, Cors, Passport, Nodemailer for the Backend API, and
+      NextJS, React, Redux, React-Intl, and Sass on the frontend.
+      Worked on development components such as user sign-up, order tracking, and product details to deliver an
+      international e-commerce website that provides and tracks orders for customers.`,
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      company: "Pharmassist",
+      link: null,
+      badges: ["Hybrid"],
+      title: "Full Stack Developer",
+      logo: null,
+      start: "2020",
+      end: "2021",
+      description: `Developed a web application using Node, Express, Axios, Cors, Passport, Nodemailer for the Backend API, and
+      NextJS, React, Redux, React-Intl, and Sass on the frontend.
+      Worked on development components such as user sign-up, order tracking, and product details to deliver an
+      international e-commerce website that provides and tracks orders for customers.`,
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Magno Technology / Colombo Development",
+      link: null,
+      badges: ["On Site"],
+      title: "Point of Sale Manager & Database Administrator",
+      logo: null,
+      start: "208",
+      end: "2020",
+      description: `Worked with technologies like MySQL and SQLite, developing scripts for usage and sales statistics using
+      Python, Java, and JavaScript; Administration, Supervision, and Technical Support of Points of Sale.
+      Employed technologies such as SQL Server, Python, and Java for Installation, Update, Backups, and Database
+      Support.`,
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
+    "React Native",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Express",
+    "NesJS",
+    "MongoDB",
+    "Firebase",
+    "GCP",
+    "AWS",
+    "Python",
+    "Flask",
+    "FastAPI",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Today I Learned",
       techStack: [
         "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "TailwindCSS",
+        "Shadcn",
+        "MongoDB",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Explore Today I Learned, where you can record and share your daily learnings. Join our community passionate about knowledge and personal growth! 📚✨",
+      logo: null,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "https://today-i-learn-one.vercel.app/",
+        href: "https://today-i-learn-one.vercel.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Infrastructure as Code - AWS Lab",
+      techStack: ["Side Project", "Python", "AWS", "Pulumi"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "This project contains the code needed to create an AWS infrastructure using the Infrastructure as Code (IaC) approach with Pulumi.",
+      logo: null,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "github.com/felipe-parra/iac-lab",
+        href: "https://github.com/felipe-parra/iac-lab",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Meme generator",
+      techStack: ["Side Project", "ReactJS", "CSS"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "A simple meme generator site",
+      logo: null,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        label: "github.com/felipe-parra/meme-generator-app",
+        href: "https://github.com/felipe-parra/meme-generator-app",
+      }
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Candy Crush",
+      techStack: ["Side Project", "JavaScript", "CSS", "HTML5"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Basic Game of Candy Crush, using html, js & css",
+      logo: null,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        label: "github.com/felipe-parra/candy-crush-basic-js",
+        href: "https://github.com/felipe-parra/candy-crush-basic-js",
+      }
     },
   ],
 } as const;
