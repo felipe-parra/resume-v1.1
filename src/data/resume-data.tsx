@@ -1,6 +1,11 @@
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
+import datajson from './data.json'
+
+export const data = {
+  ...datajson
+} as const
 
 export const RESUME_DATA = {
   name: "Felipe Parra",

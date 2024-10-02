@@ -1,0 +1,234 @@
+{
+  "name": "Felipe Parra",
+  "title": "Full Stack Developer",
+  "location": "Mexico",
+  "contact": {
+    "phone": "+52 744-1603893",
+    "email": "hola@felipeparra.dev",
+    "linkedin": "linkedin.com/in/felipe-parra-ramirez",
+    "github": "https://github.com/felipe-parra"
+  },
+  "summary": "I am a results-driven Software Developer with over 5 years of experience in developing, implementing, and maintaining web applications across various industries, specialized on JavaScript as a Full Stack Developer. I also harness the power of Python to create robust solutions. I am proficient in modern web technologies such as React, Vue, Node, Express, Django, Flask, Firebase, and MongoDB. My proven track record of delivering high-quality applications from conception to launch, streamlining functionality, and optimizing user experience positions me as an expert in the field.",
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Royal Holiday",
+      "location": "Mexico",
+      "year": 2024,
+      "responsibilities": [
+        "Led the development of Payment component using MercadoPago, OpenPay & SR Pago, using React JS.",
+        "Optimized the performance of the Payments component, reducing the load time from 9 seconds to 1.6 seconds by implementing pre-rendering, component splitting and deferred loading techniques.",
+        "Implemented Datadog RUM for real-time user monitoring, enhancing application performance insights at Frontend projects.",
+        "Designed and implemented scalable RESTful APIs with .NET Core and SQL Server, ensuring high performance and security."
+      ]
+    },
+    {
+      "title": "Full Stack JavaScript Developer",
+      "company": "Grupo Wayssen/Tokeny",
+      "location": "Mexico/Luxemburg",
+      "year": "2023(May-Aug)",
+      "responsibilities": [
+        "Added support and use of Sumsub KYC on existing platform with NestJS, SQS, MongoDB.",
+        "Created a proof of concept to understand the operation and requirements for implementation with VueJS and SumSub.",
+        "Led the team responsible for giving the general vision of the operation of the KYC."
+      ]
+    },
+    {
+      "title": "Senior Full Stack JavaScript Developer",
+      "company": "HelloDoctor Inc.",
+      "location": "Mexico",
+      "year": "2022 — May 2023",
+      "responsibilities": [
+        "Led the development of a web app using React JS, Firebase, and other technologies, while ensuring code quality through linters and Husky.",
+        "Enhanced user experience by updating the landing page for app downloads and creating multilingual support for the company's website and a tailored health concierge solution in the hospitality industry.",
+        "Contributed to the development of new features for a React Native mobile app.",
+        "Integrated internal APIs for improving interoperability, including a Proxy to handle external providers using Python’s Flask."
+      ]
+    },
+    {
+      "title": "Full Stack JavaScript Developer",
+      "company": "Pack & Pack Logistics",
+      "location": "Puebla, Mexico",
+      "year": "2021–2022",
+      "responsibilities": [
+        "Worked on maintenance and development of new features backend platforms using Node, Express, Axios, Cors, Passport, and Nodemailer.",
+        "Implemented new features, including a Landing page with VueJS, Nuxt, Vuex and new form fields for the Angular dashboard.",
+        "Collaborated on a joint project with Netflix, handling orders and data migration using Python and Django."
+      ]
+    },
+    {
+      "title": "Full Stack JavaScript Developer",
+      "company": "Colombo Development",
+      "location": "Miami, FL",
+      "year": "2021(May-Oct)",
+      "responsibilities": [
+        "Developed a web service using Node, Express, Axios, Cors, Passport, and Nodemailer.",
+        "Developed a web app with NextJS, React, Redux, React-Intl, and Sass.",
+        "Worked on development components such as user sign-up, order tracking, and product details for an international e-commerce website."
+      ]
+    },
+    {
+      "title": "Full Stack JavaScript Developer",
+      "company": "Pharmassist",
+      "location": "Guerrero, Mexico",
+      "year": "2019–2021",
+      "responsibilities": [
+        "Built and launched an application for managing orders, deliveries, prescriptions, and an online store.",
+        "Developed the backend using Node, Express, MongoDB, and Mongoose.",
+        "Started development of an e-commerce platform using ReactJS and Firebase."
+      ]
+    },
+    {
+      "title": "Point of Sale Manager & Database Administrator",
+      "company": "Maxi Super",
+      "location": "Guerrero, Mexico",
+      "year": "2008–2019",
+      "responsibilities": [
+        "Worked with MySQL and SQLite, developing scripts for usage and sales statistics using Python, Java, and JavaScript.",
+        "Provided technical support for Points of Sale.",
+        "Handled installation, updates, backups, and database support using SQL Server, Python, and Java."
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": {
+      "frameworks_libraries": [
+        "React (4 years - JavaScript, 2 years - TypeScript)",
+        "React Native (1 year - TypeScript)",
+        "VueJS 2 & 3 (2 years - JavaScript & TypeScript)",
+        "NextJS (2 years - JavaScript & TypeScript)"
+      ],
+      "state_management": [
+        "Redux & RTK",
+        "Context API",
+        "Vuex",
+        "Pinia"
+      ],
+      "ui_tools": [
+        "TailwindCSS",
+        "Bootstrap",
+        "Material UI",
+        "Materialize",
+        "Sass"
+      ],
+      "other_technologies": [
+        "Axios",
+        "React-Query",
+        "Fetch API",
+        "Moment.js",
+        "Cloudinary",
+        "LeafletJS",
+        "Google Maps API"
+      ]
+    },
+    "backend": {
+      "languages": [
+        "Node.js (4 years)",
+        "Python (2 years)",
+        "C# (1 year)"
+      ],
+      "frameworks": [
+        "Express.js (4 years)",
+        "NestJS (1 year)",
+        "Flask (2 years)",
+        "Django (2 years)",
+        "FastAPI (2 years)",
+        ".Net 6 (1 year)"
+      ],
+      "authentication_security": [
+        "JWT (3 years)",
+        "Passport.js"
+      ],
+      "api_development": [
+        "RESTful APIs (4 years)",
+        "GraphQL (1 year)"
+      ]
+    },
+    "databases": {
+      "nosql": [
+        "MongoDB (4 years)",
+        "Firestore (2 years)"
+      ],
+      "sql": [
+        "PostgreSQL (2 years)",
+        "MySQL (2 years)",
+        "SQL Server (4 years)",
+        "SQLite (2 years)"
+      ]
+    },
+    "cloud_devops": {
+      "cloud_platforms": [
+        "AWS (S3, EC2, ECS, Cognito, CloudFront, Route 53, Lightsail)",
+        "Google Cloud (Firebase Auth, Firestore, Hosting, Cloud Run)"
+      ],
+      "ci_cd": [
+        "GitHub Actions"
+      ],
+      "deployment_platforms": [
+        "Vercel",
+        "Heroku",
+        "Netlify"
+      ],
+      "infrastructure_as_code": [
+        "Pulumi",
+        "AWS CloudFormation"
+      ]
+    },
+    "testing": {
+      "frameworks": [
+        "Jest",
+        "Jasmine",
+        "Supertest",
+        "Chai"
+      ],
+      "techniques": [
+        "Unit Testing",
+        "Integration Test"
+      ]
+    },
+    "version_control": [
+      "Git",
+      "GitHub",
+      "Bitbucket"
+    ],
+    "operating_systems": [
+      "Windows",
+      "Linux",
+      "MacOS"
+    ],
+    "learning_in_progress": [
+      "Artificial Intelligence: OpenAI API, AI SDK by Vercel & Bedrock",
+      "DevOps: Terraform, Azure & AWS"
+    ]
+  },
+  "education": [
+    {
+      "institution": "Platzi Inc.",
+      "year": 2020,
+      "program": "Database Career & JavaScript School",
+      "url": "https://platzi.com/@_felipeparra/"
+    },
+    {
+      "institution": "Ironhack México",
+      "year": 2019,
+      "program": "Bootcamp Web Dev"
+    },
+    {
+      "institution": "University Hipócrates",
+      "year": "2009-2014",
+      "program": "Computer Systems Engineer",
+      "certificate_number": "10619228"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "proficiency": "Native spoken"
+    },
+    {
+      "language": "English",
+      "proficiency": "C1 Level Advanced",
+      "certificate": "EF SET English Certificate 61/100"
+    }
+  ]
+}
