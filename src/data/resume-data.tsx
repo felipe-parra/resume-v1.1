@@ -71,6 +71,20 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Royal Holiday",
+      link: "https://www.royal-holiday.com",
+      badges: ["Remote"],
+      title: "Full Stack Developer",
+      logo: "https://www.royal-holiday.com/assets/images/royal-holiday-header.svg",
+      start: "2024",
+      end: "2024",
+      description:
+        `Led development of Payment component using MercadoPago, OpenPay & SR Pago with React JS,
+        Optimized Payments component performance, reducing load time from 9 to 1.6 seconds,
+        Implemented Datadog RUM for real-time user monitoring,
+        Designed and implemented scalable RESTful APIs with .NET Core and SQL Server`,
+    },
+    {
       company: "Group Wayssen",
       link: "https://www.wayssen.com/",
       badges: ["Remote"],
